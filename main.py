@@ -115,8 +115,8 @@ async def main():
         connection_code = sys.argv[1]
         print(f"Received connection code: {connection_code}")  # 디버깅용 로그 추가
         
-        host = "doboo.tplinkdns.com"
-        port = 8088
+        host = "sibar.roma.com"
+        port = 1828
         
         print(f"Connecting to Remote Control Server at {host}:{port} with code {connection_code}")
         
